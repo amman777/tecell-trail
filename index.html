@@ -1,35 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <aside id="viewDetailsHeader"
-    class=" ml10 w97p hmax550 fl poa top20 z11111 w100 bgw thinscroll bxshw_chat mt15 wcalc40plus brddd overfw_yauto">
-    <div class="bgf9 fl cb w100 pd10 mt2">
-        <div class="fl w100">
-            <div class="clrb fs14 fwb ma db mb7 pl10">Products of interest</div>
-            <li class="fl pd2 bxrd20 bgf3 mr20 mt10"><span class="fl bxrd50 bgw wh40"><img class="fl bxrd50 wh40"
-                        src="http://5.imimg.com/data5/NA/HG/QV/GLADMIN-68155/hinges-polishing-machine.jpg"></span><span
-                    class="fl ml10 mt12 mr10">Hinges Polishing Machine</span></li>
-            <li class="fl pd2 bxrd20 bgf3 mr20 mt10"><span class="fl bxrd50 bgw wh40"><img class="fl bxrd50 wh40"
-                        src="http://3.imimg.com/data3/PD/KO/GLADMIN-20841/mud-pumps.jpg"></span><span
-                    class="fl ml10 mt12 mr10">Mud Pumps</span></li>
-            <li class="fl pd2 bxrd20 bgf3 mr20 mt10"><span class="fl bxrd50 bgw wh40"><img class="fl bxrd50 wh40"
-                        src="http://3.imimg.com/data3/TQ/GC/GLADMIN-18052/sewage-pump.jpg"></span><span
-                    class="fl ml10 mt12 mr10">Sewage Pump</span></li><span
-                class="fr mt20 pd2 cp w100px txtunderline pr15 clrBl">Show More</span>
+        class=" ml10 w97p hmax550 fl poa top20 z11111 w100 bgw thinscroll bxshw_chat mt15 wcalc40plus brddd overfw_yauto">
+        <div class="fl w100 mbminus4" id="contactHeader">
+            <div class="pd20 m10">
+                <div class="fl ml5" style="width: calc(100% - 90px);">
+                    <div class="fl right-main-header w100">
+                        <div class="fl mr10 mb3">
+                            <div id="left-name" class="brdr_clr0 left-name-details dis_ib fl mr10 clrb fs15 fwb">Map
+                                Trade</div>
+                            <div class="fl lh150 fs10 clr68 por last-seen-span mt0" id="lastSeenSv">last seen today at
+                                10:41 AM</div>
+                        </div>
+                        <div class="label-breadcrumb dis_ib fl db w0 mminus205">
+                            <div class="f1 w230 por ml10">
+                                <ul class="w350">
+                                    <li class="fl brdr_rad15 brdrall lh17 fs12 cp por w110p mr5 pdtb03p">
+                                        <p class="brdcrmb_p" title="Contacted"><svg class="por top2 fl" width="15"
+                                                height="15" viewBox="0 0 69 69" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    fill="#4986e7"></path>
+                                            </svg><span
+                                                class="wrd_elip fl ml5 mt2 brdcmb_wdth">Contacted</span><span><svg
+                                                    class="fr cp mt5 mr3" x="0px" y="0px" width="10px"
+                                                    viewBox="0 0 16 16">
+                                                    <g id="surface1">
+                                                        
+                                                    </g>
+                                                </svg></span></p>
+                                    </li>
+                                    <li class="more-label-div pd2 fl brdr_rad15 brdrall lh17 fs12 cp por w110p"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-up"
+                                            class="svg-inline--fa fa-caret-up poa rgt0 fs20 top20 clr_info w100 zindx3"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                                            style="display: none;">
+                                            
+                                        </svg><span>+1 more labels</span>
+                                        <div class="more-label-div top12 poa bgw mt15 fs14 lh24 clrblack bxsdw_dpw mlminus8 zindx10 w168p pd5 rgt0"
+                                            style="display: none;">
+                                            <div class="posr pd5">
+                                                <p title="Important" class="brdcrmb_p wrd_elip"><svg class="por top2 fl"
+                                                        width="15" height="15" viewBox="0 0 69 69" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        
+                                                    </svg><span class="wrd_elip fwb ml5">Important</span><span><svg
+                                                            class="fr cp mt5 mr3" x="0px" y="0px" width="10px"
+                                                            viewBox="0 0 16 16">
+                                                            <g id="surface1">
+                                                                
+                                                            </g>
+                                                        </svg></span></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fl w60"><span class="fl mt5 w100"><span class="fl"><img id="exp_cnt_icon"
+                                    class="fl mr5 mt3"
+                                    src="data:image/png;base64,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UmVhZHlxyWU8AAADJmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNy4yLWMwMDAgNzkuNTY2ZWJjNWI0LCAyMDIyLzA1LzA5LTA4OjI1OjU1ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjMuNCAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzI1MDQ2RTkwQUExMTFFRUJBRDVDMEQ5Q0E2MTEyMjYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzI1MDQ2RUEwQUExMTFFRUJBRDVDMEQ5Q0E2MTEyMjYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3MjUwNDZFNzBBQTExMUVFQkFENUMwRDlDQTYxMTIyNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3MjUwNDZFODBBQTExMUVFQkFENUMwRDlDQTYxMTIyNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnNmnEYAAACOSURBVHjaYv7//z/DanWp/wxay2b+B3EAAgjMYASxAAIILgSimRiAQHv5rP8gGiCAGEEiIMbVyDRGsAxcFqQepocFph4EAAIIrgcdsMAMQhYE6WRiwAEAAgjsOmSzYSbgtIMJXSWcA/MjMob7l6BRGP5AdxUIAAQYTleRbAVeq7EFIzqAOY9kG0jWQLKnAfBzWK1K+nEqAAAAAElFTkSuQmCC"
+                                    alt=""><span class="fl lh150 mr10">Member Since: 1 Year</span></span></span><span
+                            class="fl mt5 w100"><span class="fl w50"><svg class="fl mt3 mr5" width="10" height="15"
+                                    viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    
+                                </svg><span class="fl lh150 w100p_32">Mangalore, Karnataka, India</span></span></span>
+                    </div>
+                    <div class="main_hdr fr w35">
+                        <div class="fl lh150 fs13 mt5 clr68 w100"><span class="fl"><svg class="fl mt3 mr5" width="12"
+                                    height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    
+                                </svg><span class="fl lh150">09113541570</span><span title="Verified"><svg
+                                        class="fl ml10 mr5" width="17" height="18" viewBox="0 0 17 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        
+                                    </svg></span></span><span class="fl ml5"><span title="Click and Call now!"
+                                    id="c2c_button_desktop" class="c2c_div"><span class="f13 pd7">Call
+                                        Now</span></span></span><span class="fl por ml10 cp" style="margin-right: 10px;"
+                                id="qr-code_span"><svg id="qr-code" xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" viewBox="0 0 16 16" fill="none">
+                                    
+                                </svg>
+                                <div id="qr_caret"
+                                    style="border-width: 10px; border-style: solid; border-top-color: transparent; border-right-color: transparent; border-left: 10px solid transparent; border-image: initial; top: 47px; width: 10px; position: absolute; display: none; color: lightgrey; right: 5px; z-index: 111111;">
+                                </div>
+                                <div id="qr-code-popup" style="display: none;">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content"
+                                            style="background: snow; box-shadow: rgb(0, 0, 0) 1px 1px 10px 1px; padding: 0px; position: absolute; right: -100px; top: 70px; width: 231px; height: 318px; border: 0px solid rgb(136, 136, 136); z-index: 11112;">
+                                            <div class="qr-modal-body" style="display: grid;"><span
+                                                    style="padding-top: 10px; text-align: center; color: rgb(0, 166, 153); font-weight: 700; font-size: 20px;">Scan
+                                                    to Call</span><span style="text-align: center; padding: 13px;"><svg
+                                                        id="qr-code-large" style="cursor: pointer;"
+                                                        xmlns="http://www.w3.org/2000/svg" height="175"
+                                                        viewBox="0 0 29 29" width="175">
+                                                        <title>IndMRT.in/iejijvtetv/call+91-9113541570</title>
+                                                        
+                                                    </svg></span><span id="qr-code-popup-number"
+                                                    style="background: rgb(230, 230, 230); text-align: center; padding-top: 10px;">+91-9113541570</span><span
+                                                    style="background: rgb(230, 230, 230); font-size: 11px; padding: 5px 8px 10px; text-align: center; line-height: 21px;">Use
+                                                    the <strong>Camera</strong> or <strong>QR Code Scanner App</strong>
+                                                    in your phone to scan and call.</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </span></div>
+                        <div class="fl lh150 fs13 mt3 clr68 w100"><span class="fl"><svg class="fl mr5 mt3" width="14"
+                                    height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    
+                                </svg><span class="fl lh150 db">maptrading.mlr@gmail.com</span><span
+                                    title="Verified"><svg class="fl ml10 mr5" width="17" height="18" viewBox="0 0 17 18"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        
+                                    </svg></span></span></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="fl w100 mt20 pd10"><span class="clrb fs14 fwb ma db mb7">Recently Viewed</span><span
-                class="clrgt fs12 ma fl db mb5 clr68 lh150 wwrap w100">Belt Sander, Pipe Bender, Pillar Drill, Pillar
-                Drilling Machine</span><span class="fr mtminus15 pd2 cp w100px txtunderline pr15 clrBl">Show More</span>
+        <div class="bgf1 fl cb w100 pd10 por edt_cont mt25p"><span class="cp fr fs16" title="Edit Contact"><svg
+                    aria-hidden="true" focusable="false" data-prefix="fas" data-icon="pencil"
+                    class="svg-inline--fa fa-pencil " role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512">
+                    
+                </svg></span>
+            <div class="fl txtcntr mr20 w108px">
+                <div class="bxrdper50 wh77 bgw ma por" id="new_rating"><img class="bxrd50 img_Clogo vrtclalgnmid"
+                        src=""><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user"
+                        class="svg-inline--fa fa-user m15 clr_ccc fs44" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        
+                    </svg></div>
+            </div>
+            <div class="fl wcalc160">
+                <ul class="fl w100">
+                    <li class="fl w30 mt15 mr10"><span class="clrb fs14 fwb ma db mb7">Address</span><span
+                            class="clrgt fs12 ma fl db clr68 lh150 wwrap w100"><span class="fl w100">Mangalore,
+                                Karnataka, India</span></span></li>
+                </ul>
+            </div>
         </div>
-    </div>
-
-</aside>
+        <div class="bgf9 fl cb w100 pd10 mt2">
+            <div class="fl w100">
+                <div class="clrb fs14 fwb ma db mb7 pl10">Products of interest</div>
+                <li class="fl pd2 bxrd20 bgf3 mr20 mt10"><span class="fl bxrd50 bgw wh40"><img class="fl bxrd50 wh40"
+                            src="http://3.imimg.com/data3/AW/GR/GLADMIN-95551/led-decorative-light.jpg"></span><span
+                        class="fl ml10 mt12 mr10">LED Decorative Lights</span></li>
+                <li class="fl pd2 bxrd20 bgf3 mr20 mt10"><span class="fl bxrd50 bgw wh40"><img class="fl bxrd50 wh40"
+                            src="http://5.imimg.com/data5/GLADMIN/Default/2021/1/HD/YE/DF/84199/bike-mobile-charger.jpg"></span><span
+                        class="fl ml10 mt12 mr10">Bike Mobile Charger</span></li>
+                <li class="fl pd2 bxrd20 bgf3 mr20 mt10"><span class="fl bxrd50 bgw wh40"><img class="fl bxrd50 wh40"
+                            src="http://4.imimg.com/data4/HD/XG/GLADMIN-2/tinned-copper-fuse-wire.png"></span><span
+                        class="fl ml10 mt12 mr10">Tinned Copper Fuse Wire</span></li><span
+                    class="fr mt20 pd2 cp w100px txtunderline pr15 clrBl">Show More</span>
+            </div>
+            <div class="fl w100 mt20 pd10"><span class="clrb fs14 fwb ma db mb7">Recently Viewed</span><span
+                    class="clrgt fs12 ma fl db mb5 clr68 lh150 wwrap w100">EV Charging Station, LED Raw Material, LED
+                    Street Light, Lighting Automation Systems</span><span
+                    class="fr mtminus15 pd2 cp w100px txtunderline pr15 clrBl">Show More</span></div>
+        </div>
+        <div class="bgf1 fl cb w100 pd10 mt2">
+            <ul class="pl10">
+                <li class="fl w20 mt15"><span class="clrb fs14 ma db mb7">Response Via</span>
+                    <div class="db fl w100"><span class="clrb fs14 ma db mb7 w40 fl pr10 brd_rgt mr20"><b>Calls</b><span
+                                class="clrgt fs12 ma fl db clr68 lh150 w100">57</span></span><span
+                            class="clrb fs14 ma db mb7 w40 fl"><b>Replies</b><span
+                                class="clrgt fs12 ma fl db clr68 lh150 w100">20</span></span></div>
+                </li>
+                <li class="fl w30 mt15"><span class="clrb fs14 fwb ma db mb7">Requirements Till Date</span><span
+                        class="clrgt fs12 ma fl db mb20 clr68 lh150 wwrap w100"><span class="fl w100">79</span></span>
+                </li>
+            </ul>
+        </div>
+    </aside>
 </body>
+
 </html>
 
 
